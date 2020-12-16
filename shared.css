@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Big John Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Big John Regular'), url('./fonts/Big_John.woff') format('woff');
+}    
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    font-family: 'Big John Regular';
+    font-size: 46px;
+    stroke: 1pt;
+    color: #0a3c9d;
+  }
+  
+  h2 {
+    font-family: 'Big John Regular';
+    font-size: 36px;
+    stroke: 1pt;
+    color: #0A3C9D;
+    stroke: 1pt;
+  }
