@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Big John Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Big John Regular'), url('./fonts/Big_John.woff') format('woff');
+  font-family: 'Big John Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Big John Regular'), url('./fonts/Big_John.woff') format('woff');
 }    
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -17,68 +17,68 @@ body {
 
 
 h1 {
-    font-family: 'Big John Regular';
-    font-size: 46px;
-    stroke: 1pt;
-    color: #0a3c9d;
-  }
+  font-family: 'Big John Regular';
+  font-size: 46px;
+  stroke: 1pt;
+  color: #0a3c9d;
+}
 
 h2 {
-    font-family: 'Big John Regular';
-    font-size: 36px;
-    stroke: 1pt;
-    color: #0A3C9D;
-    stroke: 1pt;
-  }
+  font-family: 'Big John Regular';
+  font-size: 36px;
+  stroke: 1pt;
+  color: #0A3C9D;
+  stroke: 1pt;
+}
 
-  .main-header {
-    width: 100%;
-    position: fixed;
-    background: #0A3C9D;
-    height: 102px;
-    left: 0px;
-    top: 0px;
-  }
+.main-header {
+  width: 100%;
+  position: fixed;
+  background: #0A3C9D;
+  height: 102px;
+  left: 0px;
+  top: 0px;
+}
 
-  #store_logo {
-    position: absolute;
-    width: 85px;
-    height: 86px;
-    left: 64px;
-    top: 8px;
-  }
+#store_logo {
+  position: absolute;
+  width: 85px;
+  height: 86px;
+  left: 64px;
+  top: 8px;
+}
 
-  .main-nav {
-    display: inline-block;
-    width: 100%;
-  }
+.main-nav {
+  display: inline-block;
+  width: 100%;
+}
 
-  .main-nav__items {
-    position: absolute;
-    display:inline-block;
-    text-align: right;
-    list-style: none;
-    text-decoration: none; 
-    padding: 0 19px;
-    font-size: 18px;
-    right: 3%;
-    top: 42%; 
-  }
+.main-nav__items {
+  position: absolute;
+  display:inline-block;
+  text-align: right;
+  list-style: none;
+  text-decoration: none; 
+  padding: 0 19px;
+  font-size: 18px;
+  right: 3%;
+  top: 42%; 
+}
 
-  .main-nav__item {
-    display: inline-block;
-    padding: 0 19px;
-  }
+.main-nav__item {
+  display: inline-block;
+  padding: 0 19px;
+}
 
-  .main-nav__item a {
-    text-decoration: none;
-    color: #FFB6AD;
-  }
+.main-nav__item a {
+  text-decoration: none;
+  color: #FFB6AD;
+}
 
-  .main-nav__item a:hover,
-  .main-nav__item a:active {
-    font-weight: bold;
-  }
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  font-weight: bold;
+}
 
 footer{
   width: 100%;
@@ -101,6 +101,5 @@ footer{
   line-height: 28px;
   color: #F4B9B0;
   text-align: center;
-
 }
 
