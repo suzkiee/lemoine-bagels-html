@@ -1,0 +1,3 @@
+- Still need to make the finishing touches for the header for bkfast specials
+- need to check if the each of the tiles in the grid will be uniform in height or different 
+- need a way to make each tile in grid a certain height
