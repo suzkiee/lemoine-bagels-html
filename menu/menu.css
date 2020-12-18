@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    width: 50%
-}
-
 #banner_img {
-    /* width: 100%; */
+    width: 100%;
     margin-top: 100px;
+    position: relative;
+    z-index: -1;
 }
 
 .menu-main {
     text-align: center;
     margin-left: 100px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 .menu-main-header {
@@ -28,17 +26,18 @@ body {
     padding: 10px;
     border-radius: 10px;
     margin: auto;
-    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .menu-non-special > div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 
-#menu-bagel-header {
+#menu-bakery-header {
     width: 610px;
     height: 120px;
     background-color: #FFB6AD;
@@ -46,6 +45,7 @@ body {
     padding-left: 67px;
     padding-top: 18px;
     padding-bottom: 18px;
+    color:#0A3C9D;
 }
 
 .menu-bakey-items {
@@ -86,18 +86,47 @@ body {
 }
 
 
+#menu-bagels-header {
+    background: #0A3C9D;
+    color: #FFB6AD;
+}
 
+.menu-bagels-items {
+    width: 677px;
+}
+
+.menu-bagels-items .left {
+    text-align: left;
+    padding-left: 16px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-bottom: 41px;
+}
+
+.menu-bagels-items .right {
+    text-align: right;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-right: 36px;
+    padding-bottom: 41px;
+}
 
 
 
 .menu-bkfast-specials {
     width: 608px;
-    border: solid black 5px;
+    /* border: solid black 5px; */
 }
 
 /* need to fix the header for the bkfast specials */
 .menu-bkfast-header {
-    border: solid black 2px;
+    /* border: solid black 2px; */
     height: 120px;
     padding-left: 158px;
     padding-right: 147px;
@@ -142,7 +171,7 @@ body {
 
 
 .menu-bkfast-sandwiches {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 608px;
 }
 
