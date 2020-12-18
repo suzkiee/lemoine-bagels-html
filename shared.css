@@ -20,7 +20,7 @@ h1 {
   font-family: 'Big John Regular';
   font-size: 46px;
   stroke: 1pt;
-  color: #0a3c9d;
+  color: #F8B0A5;
 }
 
 h2 {
@@ -38,6 +38,7 @@ h2 {
   height: 102px;
   left: 0px;
   top: 0px;
+  z-index: 1;
 }
 
 #store_logo {
@@ -88,18 +89,22 @@ footer{
 
 .main-footer {
   text-align: center;
+  height: auto;
 }
 
 .footer__items{
-  position: absolute;
+  /* position: absolute;
   right: 42%;
-  bottom: -152%;
+  bottom: -152%; */
   list-style: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 28px;
   color: #F4B9B0;
-  text-align: center;
 }
 
+
+.footer__item {
+  text-align: center; 
+}
