@@ -71,6 +71,8 @@
     color:#0A3C9D;
 }
 
+
+
 .menu-bakey-items {
     width: 677px;
 }
@@ -112,7 +114,24 @@
 #menu-bagels-header {
     background: #0A3C9D;
     color: #FFB6AD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 62px;
+    padding-left: 74px;
+    font-size: 36px;
+    line-height: 43px;
 }
+
+/* #menu-bakery-header {
+    width: 610px;
+    height: 120px;
+    text-align: left;
+    padding-left: 67px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #FFB6AD;
+    color:#0A3C9D;
+} */
 
 .menu-bagels-items {
     width: 677px;
@@ -160,6 +179,7 @@
     padding-top: 5px;
     margin-bottom: 22px;
 }
+
 
 #menu-bkfast-header-span {
     display: block;
@@ -280,3 +300,71 @@
 }
 
 
+.menu-omelettes-header {
+    width: 610px;
+    background: #FFB6AD;
+    color: #0A3C9D;
+    /* padding-right: 147px; */
+    /* padding-left: 67px; */
+    padding-top: 41px;
+    padding-bottom: 35px;
+    line-height: 43px;
+    font-size: 36px;
+}
+
+.menu-omelettes-items {
+    width: 608px;
+}
+
+/* need to fix why it is not in one line */
+.menu-omelettes-choice {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 23.2727px;
+    line-height: 27px;
+    height: 41px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.menu-omelettes-items .left {
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 0;
+    height: 39.76px;
+    padding-left: 35px;
+}
+
+.menu-omelettes-items .right {
+    text-align: right;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    height: 39.76px;
+}
+
+/* there is an overflow that needs to be fixed */
+.menu-omelettes-items .left.indent {
+    text-align: left;
+    padding-left: 60px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 25.4px;
+    height: 39.76px;
+}

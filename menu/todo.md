@@ -9,3 +9,6 @@
     * footer is not taking the entire full width of the view port
 
 - maybe we can add 2 classes for some of the elements like the paddings for the indented left rows
+
+
+- need to fix and organize css code!! clean up code at the end
