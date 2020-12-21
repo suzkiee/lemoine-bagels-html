@@ -7,11 +7,15 @@
     z-index: -1;
 }
 
-.menu-main {
+.banner {
+    display: block;
+}
+
+/* .menu-main {
     text-align: center;
     margin-left: 100px;
-    /* margin-right: 100px; */
-}
+    margin-right: 100px;
+} */
 
 .menu-main-header {
     position: absolute;
@@ -28,6 +32,16 @@
     margin: auto;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.menu-other {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px; 
 }
 
 .menu-non-special > div {
