@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.menu-main {
+    width: 100%;
+    text-align: center;
+}
+
+.banner {
+    display: block;
+}
+
+/* just putting it so it stays the full width during a zoom in or out */
+.banner > img {
+    min-width: 100%;
+    margin-top: 100px;
+    position: relative;
+    z-index: -1;
+    min-height: 438px;
+    max-height: 20%;
+}
+
+#menu-main-header {
+    text-align: center;
+    min-width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.menu-non-special {
+    display: grid;
+    /* lets set the size of the columns to 608px
+        then we can add a padding left of the right column
+        this should make the size of each col to be uniform
+
+        we also need to center this div horizontally
+    */
+    grid-template-columns:  auto auto;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin: auto; */
+    /* margin-left: 50px; */
+    /* margin-right: 100px; */
+    /* margin-top: 0; */
+}
+
+.menu-non-special > div {
+  /* border: 1px solid black; */
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/* 
+    LEFT SIDE GRID
+        - Fresh Bagels and Bakery
+        - Bagels with spread
+        - Sandwiches
+    RIGHT SIDE GRID
+        - bkfast specials
+        - omelettes
+        - wraps
+*/
+
+/* BAKERY */
+#menu-bakery-header {
+    width: 610px;
+    height: 120px;
+    background-color: #FFB6AD;
+    text-align: left;
+    padding-left: 67px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color:#0A3C9D;
+}
+
+.menu-bakey-items {
+    width: 677px;
+}
+
+.menu-bakey-items .left {
+    text-align: left;
+    padding-left: 16px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-bottom: 41px;
+}
+
+.menu-bakey-items .left.indent {
+    text-align: left;
+    padding-left: 29.18px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-bottom: 41px;
+}
+
+.menu-bakey-items .right {
+    text-align: right;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-right: 36px;
+    padding-bottom: 41px;
+}
+
+
+/* BAGELS */
+#menu-bagels-header {
+    background: #0A3C9D;
+    color: #FFB6AD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 62px;
+    padding-left: 74px;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.menu-bagels-items {
+    width: 677px;
+}
+
+.menu-bagels-items .left {
+    text-align: left;
+    padding-left: 16px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-bottom: 41px;
+}
+
+.menu-bagels-items .right {
+    text-align: right;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-right: 36px;
+    padding-bottom: 41px;
+}
+
+
+/* SANDWICHES */
+#menu-sandwiches-header {
+    width: 610px;
+    background: #FFB6AD;
+    color: #0A3C9D;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 62px;
+    padding-left: 74px;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+/* Premium Cold Cuts row */
+.menu-sandwiches-choice {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28px;
+    width: 430px;
+    height: 41px;
+    text-align: left;
+    padding-bottom: 29px;
+}
+
+.menu-sandwiches-items {
+    width: 677px;
+}
+
+.menu-sandwiches-items .left {
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 0;
+    height: 39.76px;
+    padding-left: 35px;
+    padding-bottom: 25.4px;
+}
+
+.menu-sandwiches-items .right {
+    text-align: right;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    padding-right: 36px;
+    padding-bottom: 41px;
+}
+
+
+/* BKFAST SPECIALS */
+.menu-bkfast-specials {
+    width: 608px;
+}
+
+/* need to fix the header for the bkfast specials */
+.menu-bkfast-header {
+    height: 120px;
+    padding-left: 158px;
+    padding-right: 147px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: #0A3C9D;
+    color: #FFB6AD;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    margin-bottom: 22px;
+}
+
+#menu-bkfast-header-span {
+    display: block;
+    width: 50%;
+    width: 303px;
+    height: 33px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: none;
+    margin: auto;
+}
+
+.menu-bkfast-sandwiches {
+    width: 608px;
+}
+
+.menu-bkfast-sandwiches-choice {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 23.2727px;
+    line-height: 27px;
+    width: 320px;
+    height: 40px;
+    text-align: left;
+    padding-left: 35px;
+
+}
+
+.menu-bkfast-sandwiches .left.indent {
+    text-align: left;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 0;
+    height: 39.76px;
+}
+
+.menu-bkfast-sandwiches .right-indent {
+    text-align: right;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    height: 39.76px;
+}
+
+/* the padding right is just hard coded.. need to figure a way to align better */
+/* this is for the "with cheese" */
+#right-indent {
+    text-align: right;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    height: 39.76px;
+    padding-right: 78px;
+}
+
+.menu-bkfast-sandwiches .left {
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 0;
+    height: 39.76px;
+    padding-left: 35px;
+    padding-bottom: 25.4px;
+}
+
+.menu-bkfast-sandwiches .right {
+    text-align: right;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    height: 39.76px;
+}
+
+
+
+/* OMELETTES */
+.menu-omelettes-header {
+    width: 610px;
+    background: #FFB6AD;
+    color: #0A3C9D;
+    /* padding-right: 147px; */
+    /* padding-left: 67px; */
+    padding-top: 41px;
+    padding-bottom: 35px;
+    line-height: 43px;
+    font-size: 36px;
+}
+
+.menu-omelettes-items {
+    width: 608px;
+}
+
+/* need to fix why it is not in one line */
+.menu-omelettes-choice {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 23.2727px;
+    line-height: 27px;
+    height: 41px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.menu-omelettes-items .left {
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 0;
+    height: 39.76px;
+    padding-left: 35px;
+}
+
+.menu-omelettes-items .right {
+    text-align: right;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    height: 39.76px;
+}
+
+/* there is an overflow that needs to be fixed */
+.menu-omelettes-items .left.indent {
+    text-align: left;
+    padding-left: 60px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 25.4px;
+    height: 39.76px;
+}
+
+/* WRAPS */
+.menu-wraps-header {
+    width: 610px;
+    background: #0A3C9D;
+    color: #FFB6AD;
+    padding-top: 41px;
+    padding-bottom: 35px;
+    line-height: 43px;
+    font-size: 36px;
+}
+
+.menu-wraps-items {
+    width: 608px;
+}
+
+.menu-wraps-items .left {
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 0;
+    height: 39.76px;
+    padding-left: 35px;
+}
+
+.menu-wraps-items .left.indent {
+    text-align: left;
+    padding-left: 60px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 25.4px;
+    height: 39.76px;
+}
+
+.menu-wraps-items .right {
+    text-align: right;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    height: 39.76px;
+}
+
+
+/* SPECIALTY SANDWICHES */
+
+.menu-specialties {
+    height: 3702px;
+    width: 1031px;
+    background-color: #FFF8E9;
+    margin: auto;
+    box-shadow: 18px 20px #0B3B98;
+}
+
+.menu-specialties-header {
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #0A3C9D;
+    padding-top: 48px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.menu-specialties-items .left {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    vertical-align: top;
+    padding-left: 215px;
+    padding-bottom: 20px;
+}
+
+.menu-specialties-items .left.indent {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.13px;
+    vertical-align: top;
+    padding-left: 240px;
+    padding-bottom: 60px;
+}
+
+
+.menu-specialties-items .right {
+    text-align: right;
+    padding-right: 245px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    vertical-align: top;
+}
+
+/* BY THE POUND AND SALADS */
+.menu-other {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+
+/* by the pound */
+.menu-pound {
+    width: 610px;
+}
+
+.menu-pound-header {
+    background: #0A3C9D;
+    color: #FFB6AD;
+    padding-top: 41px;
+    padding-bottom: 40px;
+}
+
+.menu-pound-items > tbody > tr {
+    width: 520px;
+    height: 42px;
+}
+
+.menu-pound-items .left{
+    text-align: left;
+    padding-left: 50px;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+.menu-pound-items .right{
+    padding-left: 100px;
+    text-align: right;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+/* SALADS */
+
+.menu-salads-header {
+    background: #FFB6AD;
+    color: #0A3C9D;
+    padding-top: 41px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+.menu-salads-items .left {
+    text-align: left;
+    padding-left: 50px;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+    padding-bottom: 38px;
+}
+
+.menu-salads-items .left.indent {
+    text-align: left;
+    padding-left: 75px;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+.menu-salads-items .right{
+    padding-left: 100px;
+    text-align: right;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+.menu-drinks {
+    margin: auto;
+    width: 1056px;
+    height: 245px;
+    background-color: #FFF8E9;
+    box-shadow: 18px 20px #0B3B98;
+    margin-bottom: 304px;
+}
+
+.menu-drink-items {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.menu-drinks-header {
+    font-family: 'Roboto';
+    color: #0A3C9D;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    text-transform: none;
+    font-weight: bold;
+    width: 108px;
+    height: 42px;
+    padding-right: 149px;
+}
+
+.menu-drinks-size {
+    font-size: 24px;
+    line-height: 28.13px;
+    padding-right: 45px;
+}
+
+.menu-drink-item {
+    text-align: left;
+}
