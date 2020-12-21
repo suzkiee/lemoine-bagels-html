@@ -11,17 +11,11 @@
     display: block;
 }
 
-/* .menu-main {
+#menu-main-header {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-} */
-
-.menu-main-header {
-    position: absolute;
-    margin:0px auto;
-    left:0;
-    right:0;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .menu-non-special {
@@ -32,6 +26,7 @@
     margin: auto;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 0;
 }
 
 .menu-other {
@@ -140,7 +135,6 @@
 
 /* need to fix the header for the bkfast specials */
 .menu-bkfast-header {
-    /* border: solid black 2px; */
     height: 120px;
     padding-left: 158px;
     padding-right: 147px;
@@ -148,6 +142,9 @@
     padding-bottom: 18px;
     background: #0A3C9D;
     color: #FFB6AD;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    margin-bottom: 22px;
 }
 
 #menu-bkfast-header-span {
@@ -185,8 +182,45 @@
 
 
 .menu-bkfast-sandwiches {
-    /* border: 1px solid black; */
     width: 608px;
+}
+
+.menu-bkfast-sandwiches-choice {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 23.2727px;
+    line-height: 27px;
+    width: 320px;
+    height: 40px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.menu-bkfast-sandwiches .left.indent {
+    text-align: left;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    border-spacing: 0;
+    padding-bottom: 0;
+    height: 39.76px;
+}
+
+.menu-bkfast-sandwiches .right-indent {
+    text-align: right;
+    padding-left: 92px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.27px;
+    line-height: 27px;
+    height: 39.76px;
 }
 
 .menu-bkfast-sandwiches .left {
@@ -198,23 +232,6 @@
     font-style: normal;
     font-size: 23.27px;
     padding-bottom: 41px;
-}
-
-.menu-bkfast-sandwiches .left.indent {
-    text-align: left;
-    padding-left: 92px;
-    line-height: 40px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 23.27px;
-    border-spacing: 0;
-    padding-bottom: 0;
-}
-
-#right-indent {
-    text-align: right;
-    padding-right: 130px;
 }
 
 .menu-bkfast-sandwiches .right {
