@@ -1,3 +1,11 @@
-- Still need to make the finishing touches for the header for bkfast specials
-- need to check if the each of the tiles in the grid will be uniform in height or different 
-- need a way to make each tile in grid a certain height
+- need to fix the padding bottom for the indents in bkfast specials; otherwise about 95%
+
+
+
+- finishing touches
+    * positioning for the main div for the menu - main tag
+    * positioning for the menu header
+    * banner image width is not taking the full width
+    * footer is not taking the entire full width of the view port
+
+- maybe we can add 2 classes for some of the elements like the paddings for the indented left rows
