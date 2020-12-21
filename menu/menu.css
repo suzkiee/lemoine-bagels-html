@@ -515,3 +515,119 @@
     margin-left: 100px;
     margin-right: 100px; 
 }
+
+/* by the pound */
+.menu-pound {
+    width: 610px;
+}
+
+.menu-pound-header {
+    background: #0A3C9D;
+    color: #FFB6AD;
+    padding-top: 41px;
+    padding-bottom: 40px;
+}
+
+.menu-pound-items > tbody > tr {
+    width: 520px;
+    height: 42px;
+}
+
+.menu-pound-items .left{
+    text-align: left;
+    padding-left: 50px;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+.menu-pound-items .right{
+    padding-left: 100px;
+    text-align: right;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+/* SALADS */
+
+.menu-salads-header {
+    background: #FFB6AD;
+    color: #0A3C9D;
+    padding-top: 41px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+.menu-salads-items .left {
+    text-align: left;
+    padding-left: 50px;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+    padding-bottom: 38px;
+}
+
+.menu-salads-items .left.indent {
+    text-align: left;
+    padding-left: 75px;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+.menu-salads-items .right{
+    padding-left: 100px;
+    text-align: right;
+    Font-family: 'Roboto';
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+    Vertical-align: Top;
+}
+
+.menu-drinks {
+    margin: auto;
+    width: 1056px;
+    height: 245px;
+    background-color: #FFF8E9;
+    box-shadow: 18px 20px #0B3B98;
+    margin-bottom: 304px;
+}
+
+.menu-drink-items {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.menu-drinks-header {
+    font-family: 'Roboto';
+    color: #0A3C9D;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    text-transform: none;
+    font-weight: bold;
+    width: 108px;
+    height: 42px;
+    padding-right: 149px;
+}
+
+.menu-drinks-size {
+    font-size: 24px;
+    line-height: 28.13px;
+    padding-right: 45px;
+}
+
+.menu-drink-item {
+    text-align: left;
+}

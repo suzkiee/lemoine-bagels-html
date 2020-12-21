@@ -12,6 +12,7 @@
 
 
 - need to fix and organize css code!! clean up code at the end
+** DEFINITELY NEED TO CLEAN UP CODE.. its not dry...
 
 
 headers in menu for left side dont match up as you scroll down...
