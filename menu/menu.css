@@ -452,6 +452,59 @@
 }
 
 
+/* SPECIALTY SANDWICHES */
+
+.menu-specialties {
+    height: 3702px;
+    width: 1031px;
+    background-color: #FFF8E9;
+    margin: auto;
+    box-shadow: 18px 20px #0B3B98;
+}
+
+.menu-specialties-header {
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #0A3C9D;
+    padding-top: 48px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.menu-specialties-items .left {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    vertical-align: top;
+    padding-left: 215px;
+    padding-bottom: 20px;
+}
+
+.menu-specialties-items .left.indent {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.13px;
+    vertical-align: top;
+    padding-left: 240px;
+    padding-bottom: 60px;
+}
+
+
+.menu-specialties-items .right {
+    text-align: right;
+    padding-right: 245px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    vertical-align: top;
+}
+
 /* BY THE POUND AND SALADS */
 .menu-other {
     display: grid;
