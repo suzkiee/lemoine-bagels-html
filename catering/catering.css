@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#banner_img {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+/* 
+    essentially our flex container
+*/
+.catering-cont {
+    /* 
+        we can use the margin below if we use inline flex
+        margin: 30px 120px auto 120px; 
+        for now we are only setting the top and then the rest to auto
+        so it will resize if we make the window smaller vs larger
+    */
+    display: flex;
+    width: 1240px;
+    margin: 30px auto auto auto;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.catering-menu-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.catering-header-cont {
+    text-align: center;
+}
+
+#catering-intro {
+    margin: 21px auto auto auto;
+    width: 743px;
+    height: 196px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+/* this will reference all the headers in the catering menu */
+.catering-header.pink-bg {
+    text-align: center;
+    color: #0A3C9D;
+    background-color: #FFB6AD;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin: 0;
+}
+
+.catering-header.blue-bg {
+    text-align: center;
+    color: #FFB6AD;
+    background-color: #0A3C9D;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin: 0;
+}
+
+#catering-header-intro {
+    margin: auto;
+    padding-top: 30px;
+    width: 293px;
+    height: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 53px;
+}
+
+.catering-main-img {
+    margin: 74px 57.42px 119px 60px;
+}
+
+.catering-menu-item-description {
+    margin: 76px 0px 107px 0px;
+}
+
+.catering-menu-item-choice {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.catering-menu-item-options {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.catering-menu-item-description > p {
+    /* need to update the margins */
+    margin: 0 0 auto auto;
+    font-family: 'Roboto';
+    /* font-style: italic; */
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.catering-servings-price {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.catering-bullet {
+    color: #0A3C9D;
+}
+
+.catering-drinks-cont {
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #FFF8E9;
+    width: 1029px;
+    height: 361px;
+    box-shadow: 18px 20px #0B3B98;
+}
+
+.catering-drinks-items {
+    width: 648px;
+    height: 327px;
+    margin: auto;
+    text-align: center;
+}
+
+.catering-drinks-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    margin: 9px auto 9px auto;
+    color: #0A3C9D;
+}
+
+.catering-drinks-sub-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0px auto 9px auto;
+}
+
+.catering-drinks-options {
+    border:1px solid black;
+    margin: auto 124.52px 12px 163px;
+    table-layout: fixed;
+}
+.catering-drinks-options > tbody > tr {
+    width: 741.48px;
+}
