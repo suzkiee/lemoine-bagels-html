@@ -80,7 +80,20 @@
 }
 
 .catering-menu-item-description {
-    margin: 76px 0px 107px 57.42px;
+    margin: 76px 0px 107px 0px;
+}
+.catering-menu-item-description > p {
+    /* need to update the margins */
+    margin: 0 0 auto auto;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.catering-bullet {
+    color: #0A3C9D;
 }
 
 /* .catering-sandwiches {
@@ -95,6 +108,8 @@
 
 }
 
+i think it would be better to do this in grid
+also good practice
 .catering-drinks {
 
 } */
