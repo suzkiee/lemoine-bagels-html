@@ -24,6 +24,11 @@
     /* justify-content: space-between; */
 }
 
+.catering-menu-item {
+    display: flex;
+    flex-direction: row;
+}
+
 .catering-header-cont {
     text-align: center;
 }
@@ -70,22 +75,26 @@
     line-height: 53px;
 }
 
-.catering-bagels {
-    
+.catering-main-img {
+    margin: 74px 57.42px 119px 60px;
 }
 
-.catering-sandwiches {
-    border:1px solid black;
+.catering-menu-item-description {
+    margin: 76px 0px 107px 57.42px;
+}
+
+/* .catering-sandwiches {
+
 }
 
 .catering-platters {
-    border:1px solid black;
+
 }
 
 .catering-salads {
-    border:1px solid black;
+
 }
 
 .catering-drinks {
-    border:1px solid black;
-}
+
+} */
