@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#banner_img {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+/* 
+    essentially our flex container
+*/
+.catering-cont {
+    /* 
+        we can use the margin below if we use inline flex
+        margin: 30px 120px auto 120px; 
+        for now we are only setting the top and then the rest to auto
+        so it will resize if we make the window smaller vs larger
+    */
+    display: flex;
+    width: 1240px;
+    margin: 30px auto auto auto;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.catering-header-cont {
+    text-align: center;
+}
+
+#catering-intro {
+    margin: 21px auto auto auto;
+    width: 743px;
+    height: 196px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+/* this will reference all the headers in the catering menu */
+.catering-header.pink-bg {
+    text-align: center;
+    color: #0A3C9D;
+    background-color: #FFB6AD;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin: 0;
+}
+
+.catering-header.blue-bg {
+    text-align: center;
+    color: #FFB6AD;
+    background-color: #0A3C9D;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin: 0;
+}
+
+#catering-header-intro {
+    margin: auto;
+    padding-top: 30px;
+    width: 293px;
+    height: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 53px;
+}
+
+.catering-bagels {
+    
+}
+
+.catering-sandwiches {
+    border:1px solid black;
+}
+
+.catering-platters {
+    border:1px solid black;
+}
+
+.catering-salads {
+    border:1px solid black;
+}
+
+.catering-drinks {
+    border:1px solid black;
+}
