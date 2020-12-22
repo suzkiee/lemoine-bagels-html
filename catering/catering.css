@@ -82,34 +82,85 @@
 .catering-menu-item-description {
     margin: 76px 0px 107px 0px;
 }
+
+.catering-menu-item-choice {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.catering-menu-item-options {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
 .catering-menu-item-description > p {
     /* need to update the margins */
     margin: 0 0 auto auto;
     font-family: 'Roboto';
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+}
+
+.catering-servings-price {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
 }
 
 .catering-bullet {
     color: #0A3C9D;
 }
 
-/* .catering-sandwiches {
-
+.catering-drinks-cont {
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #FFF8E9;
+    width: 1029px;
+    height: 361px;
+    box-shadow: 18px 20px #0B3B98;
 }
 
-.catering-platters {
-
+.catering-drinks-items {
+    width: 648px;
+    height: 327px;
+    margin: auto;
+    text-align: center;
 }
 
-.catering-salads {
-
+.catering-drinks-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    margin: 9px auto 9px auto;
+    color: #0A3C9D;
 }
 
-i think it would be better to do this in grid
-also good practice
-.catering-drinks {
+.catering-drinks-sub-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0px auto 9px auto;
+}
 
-} */
+.catering-drinks-options {
+    border:1px solid black;
+    margin: auto 124.52px 12px 163px;
+    table-layout: fixed;
+}
+.catering-drinks-options > tbody > tr {
+    width: 741.48px;
+}
