@@ -5,10 +5,6 @@
     z-index: -1;
 }
 
-/* .menu-cont {
-    border:1px solid black;
-} */
-
 .menu-header-cont {
     text-align: center;
 }
@@ -49,20 +45,43 @@
     width: 610px;
     background-color: lightgreen;
     margin: 0 0 auto 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bakery-cont {
-    /* border:1px solid black; */
     height: 628px;
     width: 610px;
+}
+
+.bagels-cont {
+    height: 997px;
+    width: 610px;
+}
+
+.sandwiches-cont {
+    height: 1399px;
+    width: 610px; 
 }
 
 .menu-bkfast-lunch.right {
     background-color: lightgoldenrodyellow;
     margin: 0 100px auto 0;
     width: 610px;
+    display: flex;
+    flex-direction: column;
 }
 .bkfast-specials-cont {
     width: 610px;
     height: 1066px;
+}
+
+.omelettes-cont {
+    width: 610px;
+    height: 786px;    
+}
+
+.wraps-cont {
+    width: 610px;
+    height: 672px;  
 }
