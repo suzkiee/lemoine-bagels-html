@@ -10,10 +10,11 @@
 }
 
 .menu-bkfast-lunch {
-    border:1px solid black;
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 10px;
+    column-gap: 57px;
+    margin: auto;
+    margin-bottom: 139px;
 }
 
 .header.pink-bg {
@@ -84,4 +85,41 @@
 .wraps-cont {
     width: 610px;
     height: 672px;  
+}
+
+.menu-special-cont {
+    height: 3682px;
+    width: 1031px;
+    background-color: #FFF8E9;
+    box-shadow: 18px 20px #0B3B98;
+    margin: auto;
+    margin-bottom: 239px;
+}
+
+.menu-other-cont {
+    height: 621px;
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 57px;
+}
+
+.menu-other.left {
+    width: 610px;
+    background-color: lightgreen;
+}
+.menu-other.right {
+    background-color: lightgoldenrodyellow;
+    width: 610px;
+}
+
+.menu-drinks-cont {
+    height: 245px;
+    width: 1056px;
+    background-color: #FFF8E9;
+    box-shadow: 18px 20px #0B3B98;
+    margin: auto;
+    margin-top: 112px;
+    margin-bottom: 304px;
 }
