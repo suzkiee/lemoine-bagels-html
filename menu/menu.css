@@ -162,6 +162,17 @@
     padding-bottom: 29px;
 }
 
+.menu-bkfast-sandwiches-choice {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 23.2727px;
+    line-height: 27px;
+    width: 320px;
+    height: 40px;
+    text-align: left;
+}
+
 
 .menu-special-cont {
     height: 3682px;
