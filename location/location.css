@@ -1,0 +1,81 @@
+h2{
+    text-align: center;
+}
+
+
+h3,
+div > p {
+    padding-left: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact-info__container {
+    margin-top: 85px;
+}
+
+.contact-info {
+    width: 186px;
+    margin: 0;
+}
+
+.holiday-hours__container {
+    margin-top: 61px;
+}
+
+#banner_img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.page-heading{
+    align-content: center;
+}
+
+#store-front__img {
+    box-shadow: 18px 20px #0B3B98;
+}
+
+.store-hours {
+    /* Border for positioning reference */
+    /* border: 10px dotted black; */
+    text-align: center;
+    vertical-align: top;
+}
+.info-container__all {
+    display:inline-block;
+    margin: 50px 500px 0 100px;
+    vertical-align: top;
+    text-align: left;
+}
+.info-container1{
+    /* Border for poisitioning reference */
+    /* border: 1px dotted black; */
+    vertical-align: top;
+}
+
+.time-table {
+    border-spacing: 30px;
+
+}
+
+.table__day {
+    text-align: left;
+}
+
+.table__time {
+    text-align: right;
+}
+
+.img-container {
+    /* Border for positioning reference */
+    /* border: 1px dotted black ; */
+    display: inline-block;
+    margin-right: 100px;
+}
+/* 
+.map-container{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+} */
