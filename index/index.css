@@ -101,3 +101,56 @@ div > h2 {
     text-align: left;
     color: #E3A0A0;
 } */
+
+.reviews-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1540px;
+    height: 490px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    width: 1249px;
+    height: 241px;
+}
+
+.review-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-desc {
+    width: 295px;
+    height: 202px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.reviews-header {
+    margin-left: 125px;
+    font-size: 36px;
+    color: #0A3C9D;
+    width: 290px;
+    height: 64px;
+    left: 122px;
+    top: 1468px;
+    margin-bottom: 0px;
+}
+
+.review-stars {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    gap: 1rem;
+    justify-content: space-between;
+    padding-bottom: 67px;
+}
