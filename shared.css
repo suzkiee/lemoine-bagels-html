@@ -90,6 +90,7 @@ footer{
 .main-footer {
   text-align: center;
   height: auto;
+  overflow: hidden;
 }
 
 .footer__items{
