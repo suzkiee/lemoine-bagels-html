@@ -1,0 +1,22 @@
+.our-story-container {
+    
+}
+
+#banner_img {
+    width: 100px;
+    margin-top: 60px;
+}
+
+#view-menu-button {
+    height: 70.28px;
+    width: 276px;
+    border-radius: 30.68px;
+    box-shadow: 5px 10px 26.8px 0px;
+    background: #0B3B98 25%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color:#FFB6AD
+}
