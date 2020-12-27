@@ -1,0 +1,74 @@
+#banner_img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.our-story-container__text,
+.our-story-container__img,
+.who-container__text,
+.who-container__img {
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#color-logo {
+    width: 259px;
+    height: 261px;
+    margin: 46px 95px 0px 0px;
+}
+.our-story-container__text{
+    width: 600px;
+    text-align: left;
+    margin-top: 46px 
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+p{
+    margin: 5px;
+}
+
+.who-container {
+    margin-top: 50px;
+}
+
+.who-container__text {
+    width: 480px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+#button-container{
+    margin-bottom: 80px;
+}
+
+#catering-banner {
+    width: 507px;
+    height: 294.58px;
+    box-shadow: 18px 20px #0B3B98;
+}
+
+#view-menu-button {
+    height: 70.28px;
+    width: 276px;
+    border-radius: 30.68px;
+    box-shadow: 5px 10px 26.8px 0px;
+    background: #0B3B98 25%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color:#FFB6AD;
+    text-align: center;
+    margin-top: 10px;
+}
