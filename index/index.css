@@ -154,3 +154,9 @@ div > h2 {
     justify-content: space-between;
     padding-bottom: 67px;
 }
+
+#view-menu-button-link {
+    text-decoration: none; 
+    color:#FFB6AD;
+    display: block;
+}

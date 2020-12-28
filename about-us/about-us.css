@@ -76,4 +76,5 @@ p{
 #view-menu-button-link {
     text-decoration: none; 
     color:#FFB6AD;
+    display: block;
 }
