@@ -39,11 +39,8 @@
     height: 120px;
     padding-left: 158px;
     padding-right: 147px;
-    padding-top: 18px;
-    padding-bottom: 18px;
     padding-bottom: 30px;
     padding-top: 5px;
-    margin-bottom: 22px;
 }
 
 #bkfast-header-span {
@@ -115,39 +112,88 @@
 .menu-items {
     width: 610px;
     padding-top: 15px;
+    border-spacing: 15px;
+}
+
+.menu-item-line {
+    overflow: hidden;
+    height: 14px;
+    white-space: nowrap;
 }
 
 .menu-items .left {
     text-align: left;
     padding-left: 16px;
-    line-height: 40px;
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
     font-size: 23.27px;
-    padding-bottom: 10px;
 }
 
 .menu-items .left.indent {
     text-align: left;
-    padding-left: 29.18px;
-    line-height: 40px;
+    padding-left: 35px;
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
     font-size: 23.27px;
-    padding-bottom: 10px;
 }
 
 .menu-items .right {
     text-align: right;
-    line-height: 40px;
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
     font-size: 23.27px;
     padding-right: 36px;
-    padding-bottom: 10px;
+}
+
+
+
+.menu-items .left.bakery {
+    line-height: 30px;
+}
+
+.menu-items .left.indent.bakery {
+    line-height: 30px;
+}
+
+.menu-items .right.bakery {
+    line-height: 30px;
+}
+
+.menu-items .left.bagels {
+    line-height: 49px;
+}
+
+.menu-items .right.bagels {
+    line-height: 49px;
+}
+
+.menu-items .left.sandwiches {
+    line-height: 49px;
+}
+
+.menu-items .right.sandwiches {
+    line-height: 49px;
+}
+
+/* .menu-items .left.indent.bkfast {
+
+} */
+
+.menu-items .left.wraps {
+    line-height: 49px;
+}
+.menu-items .right.wraps {
+    line-height: 49px;
+}
+
+
+
+#right-indent {
+    text-align: right;
+    padding-right: 66px;
 }
 
 .menu-sandwiches-choice {
@@ -159,7 +205,7 @@
     width: 430px;
     height: 41px;
     text-align: left;
-    padding-bottom: 29px;
+    overflow-y: visible;
 }
 
 .menu-bkfast-sandwiches-choice {
@@ -171,6 +217,7 @@
     width: 320px;
     height: 40px;
     text-align: left;
+    padding-left: 16px;
 }
 
 
