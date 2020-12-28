@@ -72,3 +72,8 @@ p{
     text-align: center;
     margin-top: 10px;
 }
+
+#view-menu-button-link {
+    text-decoration: none; 
+    color:#FFB6AD;
+}
