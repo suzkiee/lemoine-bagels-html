@@ -16,7 +16,7 @@ p {
 
 
 div {
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 490px;
 }
 
@@ -113,19 +113,20 @@ div > h2 {
 .reviews {
     display: flex;
     flex-direction: row;
-    width: 1249px;
-    height: 241px;
+    width: 100%;
+    height: 400px;
 }
 
 .review-element {
     display: flex;
     flex-direction: column;
+    width: 520px;
 }
 
 .review-desc {
     width: 295px;
     height: 202px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -153,6 +154,7 @@ div > h2 {
     gap: 1rem;
     justify-content: space-between;
     padding-bottom: 67px;
+    margin-top: 90px;
 }
 
 #view-menu-button-link {
