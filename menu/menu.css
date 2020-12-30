@@ -257,8 +257,6 @@
     vertical-align: top;
 }
 
-
-
 .menu-other-cont {
     height: 621px;
     width: 1240px;
@@ -268,9 +266,7 @@
     column-gap: 57px;
 }
 
-.menu-other.left {
-    width: 610px;
-}
+.menu-other.left,
 .menu-other.right {
     width: 610px;
 }
