@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #banner_img {
     width: 100%;
     margin-top: 100px;
@@ -146,46 +148,24 @@
     padding-right: 36px;
 }
 
-
-
-.menu-items .left.bakery {
+.menu-items .left.bakery,
+.menu-items .left.indent.bakery,
+.menu-items .right.bakery   {
     line-height: 30px;
 }
 
-.menu-items .left.indent.bakery {
-    line-height: 30px;
+
+.menu-items .left.bagels,
+.menu-items .right.bagels,
+.menu-items .left.sandwiches,
+.menu-items .right.sandwiches,
+.menu-items .left.wraps,
+.menu-items .right.wraps  {
+    line-height: 48px;
 }
 
-.menu-items .right.bakery {
-    line-height: 30px;
-}
 
-.menu-items .left.bagels {
-    line-height: 49px;
-}
-
-.menu-items .right.bagels {
-    line-height: 49px;
-}
-
-.menu-items .left.sandwiches {
-    line-height: 49px;
-}
-
-.menu-items .right.sandwiches {
-    line-height: 49px;
-}
-
-.menu-items .left.wraps {
-    line-height: 49px;
-}
-.menu-items .right.wraps {
-    line-height: 49px;
-}
-
-.menu-items .left.other {
-    line-height: 49px;
-}
+.menu-items .left.other,
 .menu-items .right.other {
     line-height: 49px;
 }
@@ -248,7 +228,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 27px;
     vertical-align: top;
     padding-left: 180px;
     padding-bottom: 20px;
@@ -259,7 +239,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-size: 24px;
-    line-height: 28.13px;
+    line-height: 27px;
     vertical-align: top;
     padding-left: 200px;
     padding-bottom: 45px;
@@ -273,7 +253,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 27px;
     vertical-align: top;
 }
 
