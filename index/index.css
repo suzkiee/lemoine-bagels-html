@@ -1,106 +1,101 @@
 p {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28.13px;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
     color: #4B3030;
-    height: 116px; 
-    width: 498px;
+    height: 7.25rem; 
+    width: 31.13rem;
+    padding-left: 1rem;
 }
 
-#banner_img {
-    width: 100%;
-    margin-top: 100px;
-    position: relative;
-    z-index: -1;
+.banner-container{
+    background: url("../images/bagels.png") 100%;
+    background-repeat: none;
+    width: 100vw;  
+
 }
 
-
-div {
-    /* overflow: hidden; */
-    height: 490px;
+.intro-container__all{
+    width: 100vw;
+    margin-top: 3rem;
 }
 
-.home__intro {
-    position: relative;
-}
-
-#lox-bagel {
-    position: absolute;
+.intro-container__all > div,
+.mid-container__all > div {
     display: inline-block;
-    width: 763px;
-    height: 506.68 px;
-    bottom: 5%;
+    /* border: 1px dotted black; 
+    <-- Border for positioning only -->  */
+    vertical-align: top;
+    height: 56vh;
 }
 
-div > h1{
-    position: absolute;
-    right: 15%;
+.intro-container1 {
+    background: url("../images/loxbagel.png") left 60% bottom 44%; 
+    width: 40%;
+    margin-left: 7.5rem;
+}
+
+.intro-container2,
+.mid-container2 {
+    width: 40%;
+    padding-left: 1rem;
+}
+
+h1 {
+    margin-bottom: auto;
+}
+
+#view-menu-button {
+    height: 3.8rem;
+    width: 15.16rem;
+    border-radius: 30.68px;
+    background: #0A3C9D;
+    box-shadow: 5.78px 4.63px 11.57px 0px #0B3B98 44%;
+    filter: drop-shadow(5.78947px 4.63158px 11.5789px rgba(11, 59, 152, 0.44));
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    color:#E3A0A0;
+    margin: 3.5rem 0 0 1rem;
 } 
 
-.intro-text{
-    position: absolute;
-    right: 17%;
-    top: 17%;
+#view-menu-button-link {
+    text-decoration: none;
+    height: 1.8rem;
+    width: 6.4rem;
+    left: 50rem;
+    top: 46.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E3A0A0;
+} 
+
+
+.mid-container__all {
+    margin-top: 4.8rem;
 }
 
-.mid-desc {
-    position: relative;
-}
-
-div > h2 {
-    position: absolute;
-    left: 10%;
-}
-
-.mid__text {
-    position: absolute;
-    left: 10%;
-    bottom: 51%; 
+.mid-container1 {
+    width: 40%;
+    margin-left: 5.5rem;
 }
 
 #home-bgl-img {
-    width: 508px;
-    height: 344px;
+    width: 31.75rem;
+    height: 21.5rem;
     border: 1px solid #6A6868;
     box-shadow: 20px 22px #0B3B98;
     box-sizing: border-box;
     position: absolute;
     right: 10%;
-}
-
-#view-menu-button {
-    height: 61.37px;
-    width: 242px;
-    border-radius: 30.68px;
-    background: #0A3C9D;
-    box-shadow: 5.78px 4.63px 11.57px 0px #0B3B98 44%;
-    filter: drop-shadow(5.78947px 4.63158px 11.5789px rgba(11, 59, 152, 0.44));
-    position: absolute;
-    right: 35%;
-    bottom: 20%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0em;
-    color:#E3A0A0;
-}
-
-/* #view-menu-button-link {
-    text-decoration: none;
-    height: 30px;
-    width: 102px;
-    left: 789px;
-    top: 744px;
-    font-family: Roboto;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #E3A0A0;
-} */
+} 
 
 .reviews-cont {
     display: flex;
@@ -155,10 +150,4 @@ div > h2 {
     justify-content: space-between;
     padding-bottom: 67px;
     margin-top: 90px;
-}
-
-#view-menu-button-link {
-    text-decoration: none; 
-    color:#FFB6AD;
-    display: block;
 }
