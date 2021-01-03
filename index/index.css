@@ -9,10 +9,8 @@ p {
 }
 
 .banner-container{
-    background: url("../images/bagels.png") 100%;
-    background-repeat: none;
-    width: 100vw;  
-
+    background: url("../images/bagels.png") no-repeat;
+    background-size: 100%;
 }
 
 .intro-container__all{
@@ -28,6 +26,7 @@ p {
     vertical-align: top;
     height: 56vh;
 }
+
 
 .intro-container1 {
     background: url("../images/loxbagel.png") left 60% bottom 44%; 
@@ -150,4 +149,42 @@ h1 {
     justify-content: space-between;
     padding-bottom: 67px;
     margin-top: 90px;
+}
+
+/* <-- For screen size of 752px or less --> */
+
+@media (max-width: 47rem) {
+    .intro-container__all > div,
+    .mid-container__all > div {
+        display: block;
+        margin: auto;
+        text-align: center;
+        height: 53vh;
+    }
+
+    .intro-container1 {
+        width: 80%;
+    }
+
+    .intro-container2 {
+        width: 80%;
+        padding: 0;
+    }
+
+    p {
+        padding: 0;
+    }
+
+    #view-menu-button {
+        margin-top: 3.5rem;    
+    }
+
+    .mid-container1 {
+        width: 80%;
+    }
+
+    .mid-container2 {
+        width: 80%;
+        padding: 0;
+    }
 }
