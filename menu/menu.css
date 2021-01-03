@@ -4,8 +4,6 @@
     width: 100%;
     height: 22.5rem; 
     margin-top: 6.25rem;
-    position: relative;
-    z-index: -1;
 }
 
 .menu-header-cont {
@@ -316,4 +314,132 @@
 
 .drink_size {
     font-weight: bold;
+}
+
+@media (max-width: 47rem) {
+
+    #banner_img {
+        height: auto;
+    }
+
+    h1 {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .menu-header-cont {
+        margin: auto;
+        width: 80%;
+    }
+
+    .menu-bkfast-lunch {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .menu-bkfast-lunch.left,
+    .menu-bkfast-lunch.right,
+    .menu-other.left,
+    .menu-other.right {
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .bakery-cont,
+    .bagels-cont,
+    .sandwiches-cont,
+    .bkfast-specials-cont,
+    .omelettes-cont, 
+    .wraps-cont {
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+
+    #bakery-header {
+        text-align: center;
+        height: 6.37rem;
+        width: 100%;
+        padding: 1rem 0;
+        font-size: 2.5rem;
+    }
+    
+    .header.blue-bg,
+    .header.pink-bg {
+        margin: auto;
+        padding: 2.4rem 0;
+    }
+
+    .menu-items{
+        width: 100%;
+        border-spacing: 1rem;
+    }
+
+    .menu-items .left,
+    .menu-items .right,
+    .menu-items .left.indent,
+    .menu-items .left.other,
+    .menu-items .left.sandwiches,
+    .menu-items .left.wraps {
+        font-size: 1.2rem;
+    }
+
+    .header.blue-bg.bkfast-header {
+        margin: auto;
+        padding: 2.4rem 0;
+    }
+    .wraps-cont {
+        margin-bottom: 5rem;
+    }
+
+    .menu-special-cont,
+    .menu-other-cont {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 5rem; 
+        display: block;
+    }
+
+    .special-items {
+        width: 100%;
+        border-spacing: 1rem;
+    }
+
+    .special-items .left,
+    .special-items .right {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .special-items .left.indent {
+        padding: 0 0 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .menu-drinks-cont {
+        width: 80%;
+        margin: auto auto 5rem auto;
+    }
+
+    .menu-drinks-header {
+        margin: auto;
+    }
+
+    .drink-item-prices,
+    .drink-items {
+        font-size: 1rem;
+    }
+
+    .drink-items {
+        padding: 1.5rem 0 0 1.5rem;
+        margin: 0;
+        width: 20%;
+    }
+
+    .table-container {
+        width: 74%;
+    }
+
 }
