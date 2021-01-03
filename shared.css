@@ -18,14 +18,14 @@ body {
 
 h1 {
   font-family: 'Big John Regular';
-  font-size: 46px;
+  font-size: 2.87rem;
   stroke: 1pt;
   color: #F8B0A5;
 }
 
 h2 {
   font-family: 'Big John Regular';
-  font-size: 36px;
+  font-size: 2.25rem;
   stroke: 1pt;
   color: #0A3C9D;
   stroke: 1pt;
@@ -35,7 +35,7 @@ h2 {
   width: 100%;
   position: fixed;
   background: #0A3C9D;
-  height: 102px;
+  height: 6.37rem;
   left: 0px;
   top: 0px;
   z-index: 1;
@@ -43,10 +43,10 @@ h2 {
 
 #store_logo {
   position: absolute;
-  width: 85px;
-  height: 86px;
-  left: 64px;
-  top: 8px;
+  width: 5.31rem;
+  height: 5.37rem;
+  left: 4rem;
+  top: .5rem;
 }
 
 .main-nav {
@@ -60,15 +60,15 @@ h2 {
   text-align: right;
   list-style: none;
   text-decoration: none; 
-  padding: 0 19px;
-  font-size: 18px;
+  padding: 0 1.18rem;
+  font-size: 1.12rem;
   right: 3%;
   top: 42%; 
 }
 
 .main-nav__item {
   display: inline-block;
-  padding: 0 19px;
+  padding: 0 1.18rem;
 }
 
 .main-nav__item a {
@@ -83,7 +83,7 @@ h2 {
 
 footer{
   width: 100%;
-  height: 192px;
+  height: 12rem;
   background: #0A3C9D;
 }
 
@@ -100,12 +100,25 @@ footer{
   list-style: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: none; 
   color: #F4B9B0;
 }
 
 
 .footer__item {
   text-align: center; 
+}
+
+/* <-- For screen size of 752px or less --> */
+@media (max-width: 47rem) {
+
+  .main-nav__items {
+    font-size: 1rem;
+  }
+
+  .main-nav__item {
+    padding: 0 0.5rem;
+  }
 }
