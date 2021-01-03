@@ -2,12 +2,9 @@
 
 #banner_img {
     width: 100%;
-    height: 361px;
-    margin-top: 100px;
-    position: relative;
-    z-index: -1;
+    height: 22.5rem;
+    margin-top: 6.25rem;
 }
-
 /* 
     essentially our flex container
 */
@@ -19,8 +16,8 @@
         so it will resize if we make the window smaller vs larger
     */
     display: flex;
-    width: 1240px;
-    margin: 30px auto auto auto;
+    width: 77.5rem;
+    margin: 1.87rem auto auto auto;
     flex-direction: column;
     /* justify-content: space-between; */
 }
@@ -35,14 +32,14 @@
 }
 
 #catering-intro {
-    margin: 21px auto auto auto;
-    width: 743px;
-    height: 196px;
-    font-family: 'Roboto';
+    margin: 1.3rem auto auto auto;
+    width: 46.43rem;
+    height: 12.25rem;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 1.87rem;
+    line-height: 2.18rem;
 }
 
 /* this will reference all the headers in the catering menu */
@@ -50,8 +47,7 @@
     text-align: center;
     color: #0A3C9D;
     background-color: #FFB6AD;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding: 2.3rem 0;
     margin: 0;
 }
 
@@ -59,62 +55,61 @@
     text-align: center;
     color: #FFB6AD;
     background-color: #0A3C9D;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding: 2.3rem 0;
     margin: 0;
 }
 
 #catering-header-intro {
     margin: auto;
-    padding-top: 30px;
-    width: 293px;
-    height: 53px;
-    font-family: 'Roboto';
+    padding-top: 1.87rem;
+    width: 18.31rem;
+    height: 3.31rem;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 43px;
-    line-height: 53px;
+    font-size: 2.68rem;
+    line-height: 3.31rem;
 }
 
 .catering-main-img {
-    margin: 74px 57.42px 119px 60px;
+    margin: 4.62rem 3.58rem 7.48rem 3.75rem;
 }
 
 .catering-menu-item-description {
-    margin: 76px 0px 107px 0px;
+    margin: 4.75rem 0 6.68rem 0;
 }
 
 .catering-menu-item-choice {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.87rem;
 }
 
 .catering-menu-item-options {
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.87rem;
 }
 
 .catering-menu-item-description > p {
     /* need to update the margins */
     margin: 0 0 auto auto;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     /* font-style: italic; */
     font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
 }
 
 .catering-servings-price {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.87rem;
     font-weight: 400;
 }
 
@@ -124,44 +119,89 @@
 
 .catering-drinks-cont {
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     background-color: #FFF8E9;
-    width: 1029px;
-    height: 361px;
+    width: 64.31rem;
+    height: 22.56rem;
     box-shadow: 18px 20px #0B3B98;
 }
 
 .catering-drinks-items {
-    width: 648px;
-    height: 327px;
+    width: 40.5rem;
+    height: 20.43rem;
     margin: auto;
     text-align: center;
 }
 
 .catering-drinks-header {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.62rem;
     font-weight: 700;
-    margin: 9px auto 9px auto;
+    margin: .56rem auto .56rem auto;
     color: #0A3C9D;
 }
 
 .catering-drinks-sub-header {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     font-weight: 400;
-    margin: 0px auto 9px auto;
+    margin: 0 auto .56rem auto;
 }
 
 .catering-drinks-options {
-    border:1px solid black;
-    margin: auto 124.52px 12px 163px;
-    table-layout: fixed;
+  border-spacing: 1.2rem 1rem;
+  width: 113%;
+  text-align: left;
+
 }
+
 .catering-drinks-options > tbody > tr {
-    width: 741.48px;
+    width: 46.34rem;
 }
+
+/* <-- For screen size of 752px or less --> */
+@media (max-width: 47rem) {
+
+    #banner_img {
+        height: auto;
+    }
+
+    .catering-cont {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+
+    .catering-menu-item {
+        display: block;
+    }
+
+    #catering-intro {
+        margin: auto;
+        width: 80%;
+    }
+    
+    .catering-main-img {
+        margin: 2rem auto;
+        width: 100%;
+    }
+
+    .catering-menu-item-description {
+        margin: 2rem auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .catering-drinks-cont,
+    .catering-drinks-items {
+        width: 80%;
+    }
+    
+    .catering-drinks-header {
+        padding-top: 1rem;
+    }
+  }

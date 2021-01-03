@@ -154,6 +154,11 @@ h1 {
 /* <-- For screen size of 752px or less --> */
 
 @media (max-width: 47rem) {
+    
+    #banner_img {
+        height: auto; 
+    }
+
     .intro-container__all > div,
     .mid-container__all > div {
         display: block;

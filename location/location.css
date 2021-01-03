@@ -99,6 +99,11 @@ div > p {
 
 @media (max-width: 47rem) {
 
+    #banner_img {
+        height: auto; 
+        margin-top: 6.25rem;
+    }
+
     .info-container__all {
         display: block;
         margin: auto;
