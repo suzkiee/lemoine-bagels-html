@@ -2,7 +2,6 @@ h2{
     text-align: center;
 }
 
-
 h3,
 div > p {
     padding-left: 3.9rem;
@@ -94,4 +93,42 @@ div > p {
     font-size: 1.5rem;
     margin: 1.25rem 0 0 0;
     padding: 0;
+}
+
+/* <-- For screen size of 752px or less --> */
+
+@media (max-width: 47rem) {
+
+    .info-container__all {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .time-table {
+        border-spacing: 5rem 2rem;
+    }
+
+    h3,
+    div > p {
+        padding: 0;
+        margin: auto; 
+    }
+
+    .contact-info__container,
+    .holiday-hours__container {
+        margin-top: 3.3rem;
+    }
+
+    .contact-info {
+        margin: auto;
+    }
+
+    .img-container {
+        width: 80%;
+        margin: 3.3rem auto auto auto; 
+        padding: 0;
+        display: block;
+    }
 }
