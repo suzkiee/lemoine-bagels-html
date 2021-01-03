@@ -89,6 +89,11 @@ p{
 
 @media (max-width: 47rem) {
     
+    #banner_img {
+        height: auto; 
+        margin-top: 6.25rem;
+    }
+
     .main-container {
         margin: 0;
     }
