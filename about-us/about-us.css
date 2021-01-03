@@ -86,3 +86,29 @@ p{
     color:#FFB6AD;
     display: block;
 }
+
+@media (max-width: 47rem) {
+    
+    .main-container {
+        margin: 0;
+    }
+
+    .our-story-container__text,
+    .our-story-container__img,
+    .who-container__text,
+    .who-container__img {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: 2.87rem auto auto auto;
+    }
+
+    #color-logo {
+        margin: auto;
+    }
+
+    #button-container {
+        margin: 2.87rem auto;
+    }
+
+}
