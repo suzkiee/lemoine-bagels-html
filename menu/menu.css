@@ -2,8 +2,8 @@
 
 #banner_img {
     width: 100%;
-    height: 361px; 
-    margin-top: 100px;
+    height: 22.5rem; 
+    margin-top: 6.25rem;
     position: relative;
     z-index: -1;
 }
@@ -15,18 +15,18 @@
 .menu-bkfast-lunch {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 57px;
+    column-gap: 3.6rem;
     margin: auto;
     width: 80%;
-    margin-bottom: 139px;
+    margin: 0 0 8.6rem 5rem;
 }
 
 .header.pink-bg {
     text-align: center;
     color: #0A3C9D;
     background-color: #FFB6AD;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
     margin: 0;
 }
 
@@ -34,126 +34,126 @@
     text-align: center;
     color:#FFB6AD; 
     background-color: #0A3C9D;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
     margin: 0;
 }
 
 .header.blue-bg.bkfast-header {
-    height: 120px;
-    padding-left: 158px;
-    padding-right: 147px;
-    padding-bottom: 30px;
-    padding-top: 5px;
+    height: 7.5rem;
+    padding-left: 9.88rem;
+    padding-right: 9.19rem;
+    padding-bottom: 1.9rem;
+    padding-top: 0.3rem;
 }
 
 #bkfast-header-span {
     display: block;
     width: 50%;
-    width: 303px;
-    height: 33px;
-    font-family: "Roboto";
+    width: 18.9rem;
+    height: 3.06rem;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     text-transform: none;
     margin: auto;
 }
 
 #bakery-header {
     text-align: left;
-    width: 543px;
-    height: 102px;
-    padding: 18px 0 18px 67px;
+    width: 33.9rem;
+    height: 6.37rem;
+    padding: 1.12rem 0 1.12rem 4.18rem;
 }
 
 .menu-bkfast-lunch.left {
-    width: 610px;
+    width: 38.12rem;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
 .bakery-cont {
-    height: 628px;
-    width: 610px;
+    height: 39.25rem;
+    width: 38.12rem;
 }
 
 .bagels-cont {
-    height: 997px;
-    width: 610px;
+    height: 62.312rem;
+    width: 38.12rem;
 }
 
 .sandwiches-cont {
-    height: 1399px;
-    width: 610px; 
+    height: 87.43rem;
+    width: 38.12rem; 
 }
 
 .menu-bkfast-lunch.right {
     margin: 0;
-    width: 610px;
+    width: 38.12rem;
     display: flex;
     flex-direction: column;
 }
 .bkfast-specials-cont {
-    width: 610px;
-    height: 1066px;
+    width: 38.12rem;
+    height: 66.63rem;
 }
 
 .omelettes-cont {
-    width: 610px;
-    height: 786px;    
+    width: 38.12rem;
+    height: 49.12rem;    
 }
 
 .wraps-cont {
-    width: 610px;
-    height: 672px;  
+    width: 38.12rem;
+    height: 42rem;  
 }
 
 .menu-items {
-    width: 610px;
-    padding-top: 15px;
-    border-spacing: 15px;
+    width: 38.12rem;
+    padding-top: 0.93rem;
+    border-spacing: 0.93rem;
 }
 
 .menu-item-line {
     overflow: hidden;
-    height: 14px;
+    height: .875rem;
     white-space: nowrap;
 }
 
 .menu-items .left {
     text-align: left;
-    padding-left: 16px;
-    font-family: 'Roboto';
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 23.27px;
+    font-size: 1.45rem;
 }
 
 .menu-items .left.indent {
     text-align: left;
-    padding-left: 35px;
-    font-family: 'Roboto';
+    padding-left: 2.19rem;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 23.27px;
+    font-size: 1.45rem;
 }
 
 .menu-items .right {
     text-align: right;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 23.27px;
-    padding-right: 36px;
+    font-size: 1.45rem;
+    padding-right: 2.25rem;
 }
 
 .menu-items .left.bakery,
 .menu-items .left.indent.bakery,
 .menu-items .right.bakery   {
-    line-height: 30px;
+    line-height: 1.88rem;
 }
 
 
@@ -163,60 +163,60 @@
 .menu-items .right.sandwiches,
 .menu-items .left.wraps,
 .menu-items .right.wraps  {
-    line-height: 48px;
+    line-height: 3rem;
 }
 
 
 .menu-items .left.other,
 .menu-items .right.other {
-    line-height: 49px;
+    line-height: 3.06rem
 }
 
 #right-indent {
     text-align: right;
-    padding-right: 66px;
+    padding-right: 4.12rem;
 }
 
 .menu-sandwiches-choice {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-style: italic;
-    font-size: 24px;
-    line-height: 28px;
-    width: 430px;
-    height: 41px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    width: 26.88rem;
+    height: 2.56rem;
     text-align: left;
     overflow-y: visible;
 }
 
 .menu-bkfast-sandwiches-choice {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-style: italic;
-    font-size: 23.2727px;
-    line-height: 27px;
-    width: 320px;
-    height: 40px;
+    font-size: 1.45rem;
+    line-height: 1.68rem;
+    width: 20rem;
+    height: 2.5rem;
     text-align: left;
-    padding-left: 16px;
+    padding-left: 1rem;
 }
 
 
 .menu-special-cont {
-    height: 3682px;
-    width: 1031px;
+    height: 230.12rem;
+    width: 64.43rem;
     background-color: #FFF8E9;
     box-shadow: 18px 20px #0B3B98;
     margin: auto;
-    margin-bottom: 239px;
+    margin-bottom: 14.93rem;
 }
 
 .menu-specialties-header {
-    font-family: 'Roboto';
-    font-size: 36px;
-    line-height: 42.19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.63rem;
     color: #0A3C9D;
-    padding-top: 48px;
+    padding-top: 3rem;
     text-align: center;
     font-weight: bolder;
 }
@@ -229,56 +229,91 @@
     text-align: left;
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 24px;
-    line-height: 27px;
+    font-size: 1.5rem;
+    line-height: 1.69rem;
     vertical-align: top;
-    padding-left: 180px;
-    padding-bottom: 20px;
+    padding: 0 0 1.25rem 11.25rem;
 }
 
 .special-items .left.indent {
     text-align: left;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 24px;
-    line-height: 27px;
+    font: normal 1.5rem 'Roboto' sans-serif;
+    /* font-style: normal;
+    font-size: 1.5rem; */
+    line-height: 1.69rem;
     vertical-align: top;
-    padding-left: 200px;
-    padding-bottom: 45px;
-    height: 58px;
-    width: 386px;
+    padding: 0 0 2.81rem 12.5rem;
+    height: 3.62rem;
+    width: 24.12rem;
 }
 
 .special-items .right {
     text-align: right;
-    padding-right: 245px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 24px;
-    line-height: 27px;
+    padding-right: 15.31rem;
+    font: normal 1.5rem 'Roboto', sans-serif;
+    /* font-style: normal;
+    font-size: 1.5rem; */
+    line-height: 1.69rem;
     vertical-align: top;
 }
 
 .menu-other-cont {
-    height: 621px;
-    width: 1240px;
+    height: 38.81rem;
+    width: 77.5rem;
     margin: auto;
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 57px;
+    column-gap: 3.56rem;
 }
 
 .menu-other.left,
 .menu-other.right {
-    width: 610px;
+    width: 38.12rem;
 }
 
 .menu-drinks-cont {
-    height: 245px;
-    width: 1056px;
+    height: 15.31rem;
+    width: 66rem;
     background-color: #FFF8E9;
     box-shadow: 18px 20px #0B3B98;
-    margin: auto;
-    margin-top: 112px;
-    margin-bottom: 304px;
+    /* margin: auto; */
+    margin: 7rem auto 19rem auto;
+    vertical-align: top;
+}
+
+.menu-drinks-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #0A3C9D;
+    padding-top: .2rem;
+    text-align: center;
+    margin: 0;
+}
+
+.table-container {
+    width: 60%;
+    display: inline-block;
+    /* border: 1px black dashed; */
+    text-align: right;
+}
+
+.drink-items {
+    /* border: 1px black dashed;  */
+    display: inline-block;
+    width: 15%%;
+    vertical-align: top;
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+    padding: 1.31rem 0 0 3.18rem;
+    margin-left: 9.87rem;
+}
+
+.drink-item-prices {
+    display: inline-block;
+    font-size: 1.1rem;
+    border-spacing: 3.8rem 1.2rem;
+}
+
+.drink_size {
+    font-weight: bold;
 }
