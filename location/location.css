@@ -95,13 +95,14 @@ div > p {
     padding: 0;
 }
 
-/* <-- For screen size of 752px or less --> */
+/* <-- For screen size of 640px or less --> */
 
-@media (max-width: 47rem) {
+
+@media (max-width: 40rem) {
 
     #banner_img {
         height: auto; 
-        margin-top: 6.25rem;
+        width: 100%;
     }
 
     .info-container__all {
@@ -112,7 +113,7 @@ div > p {
     }
 
     .time-table {
-        border-spacing: 5rem 2rem;
+        border-spacing: 3rem 2rem;
     }
 
     h3,
@@ -131,10 +132,18 @@ div > p {
     }
 
     .img-container {
-        width: 80%;
+        width: 100%;
         margin: 3.3rem auto auto auto; 
         padding: 0;
         display: block;
+    }
+
+    #store-front__img {
+        width: 80%;
+    }
+
+    iframe {
+        width: auto;
     }
 }
 
