@@ -1,89 +1,143 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemoine Bagels</title>
+    <link rel="stylesheet" href="./shared.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <img src="./images/logo.png" alt="store logo" id="store_logo">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.2.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.2.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.2.1/firebase-performance.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="./index.html">Home</a>
+                </li>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+                <li class="main-nav__item">
+                    <a href="./menu/menu.html">Menu</a>
+                </li>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+                <li class="main-nav__item">
+                    <a href="./catering/catering.html">Catering</a>
+                </li>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+                <li class="main-nav__item">
+                    <a href="./location/location.html">Location/Hours</a>
+                </li>
+
+                <li class="main-nav__item">
+                    <a href="./about-us/about-us.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="main-container">
+            <div class="banner-container">   
+                <img src="./images/bagels.png" alt="banner" id="banner_img">
+            </section>
+        
+            <section class="intro-container__all">
+                
+                <div class="intro-container1"></div>
+
+                <div class="intro-container2">
+                    <h1 id="main-heading">Lemoine Hot Bagels</h1>
+                    <div class="text-container">
+                        <p class="intro-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, libero. Id explicabo dolorem ex quaerat ut ratione recusandae voluptatum harum, nostrum impedit. Magnam earum fugit aliquam ipsam, accusantium cupiditate soluta.
+                        </p>
+
+                        <button id="view-menu-button">
+                            <a href="./menu/menu.html" id="view-menu-button-link">View Menu</a>
+                            <!-- <link to="/menu" id="view-menu-button-link">View Menu </link> -->
+                        </button>
+                    </div>
+
+                </div> 
+            
+            </section>
+
+            <section class="mid-container__all">
+
+                <div class="mid-container1">
+                    <h2 class="second-heading">FRESH BAGELS</h1>
+
+                    <p class="mid-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nemo excepturi. Fugiat voluptas vero numquam officia alias ipsam rem earum, dicta omnis vel, officiis ad praesentium odit at delectus explicabo!
+                    </p>
+                </div>
+
+                <div class="mid-container2">
+                    <img src="./images/plainbagels.png" alt="home-bgl-img" id="home-bgl-img">
+                </div>
+            </section>
+
+            <section class="reviews-cont">
+                <h2 class="reviews-header">REVIEWS</h2>
+                <div class="reviews">
+                    <div class="review-element">
+                        <p class="review-desc">
+                            "I get my breakfast sandwiches from here all the time and they never disappoint. The food here is yummy and filling."
+                        </p>
+                        <div class="review-stars">
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                        </div>
+                    </div>
+
+                    <div class="review-element">
+                        <p class="review-desc">
+                        “Go here for the bagels. You can’t go wrong. They are fresh and better than most delis in NYC. This is a find in Fort Lee.”
+                        </p>
+                        <div class="review-stars">
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                        </div>
+                    </div>
+
+                    <div class="review-element last">
+                        <p class="review-desc">
+                        “Fresh, hot bagels at a great price. No frills, no fancy menu. If you’re looking for a reliable bagel spot to drop in, pick up and go, this place is perfect.”</p>
+                        <div class="review-stars">
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                            <img src="./images/star.png" alt="star-reviews" />
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </section>    
+    </main>
+
+
+    <footer>
+        <div class="main-footer">
+            <ul class="footer__items">
+                <li class="footer__item">Lemoine Bagels</li>
+                <li class="footer__item">2455 Lemoine Ave</li>
+                <li class="footer__item">Fort Lee NJ 07024</li>
+                <br/>
+                <li class="footer__item">(201) 585-1988</li>
+            </ul>
+        </div>
+    </footer>
+
+    
+</body>
 </html>
