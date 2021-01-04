@@ -443,3 +443,16 @@
     }
 
 }
+
+/* <-- For screen size of 1600px or more --> */
+
+@media (min-width: 100rem) {
+    #banner_img {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .menu-bkfast-lunch {
+        margin: 0 auto 8.6rem auto;
+    }
+}
