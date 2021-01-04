@@ -325,6 +325,7 @@
     h1 {
         width: 80%;
         margin: auto;
+        font-size: 2rem;
     }
     
     .menu-header-cont {
@@ -362,7 +363,11 @@
         height: 6.37rem;
         width: 100%;
         padding: 1rem 0;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    #bkfast-header-span {
+        width: 80%;
     }
     
     .header.blue-bg,
@@ -382,12 +387,13 @@
     .menu-items .left.other,
     .menu-items .left.sandwiches,
     .menu-items .left.wraps {
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
 
     .header.blue-bg.bkfast-header {
         margin: auto;
         padding: 2.4rem 0;
+        font-size: 2rem;
     }
     .wraps-cont {
         margin-bottom: 5rem;
@@ -409,13 +415,13 @@
 
     .special-items .left,
     .special-items .right {
-        font-size: 1.2rem;
+        font-size: .9rem;
         padding: 0;
     }
 
     .special-items .left.indent {
         padding: 0 0 0.8rem 1.5rem;
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .menu-drinks-cont {
@@ -427,21 +433,26 @@
         margin: auto;
     }
 
-    .drink-item-prices,
     .drink-items {
-        font-size: 1rem;
-    }
-
-    .drink-items {
-        padding: 1.5rem 0 0 1.5rem;
+        font-size: .6rem;
+        padding: 2.5rem 0 0 1rem;
         margin: 0;
-        width: 20%;
+        width: 21%;
     }
 
     .table-container {
-        width: 74%;
+        width: 59%;
+    }
+    
+    .drink-item-prices {
+        font-size: .8rem;
+        border-spacing: 1.8rem 1.5rem;
     }
 
+    .menu-sandwiches-choice,
+    .menu-bkfast-sandwiches-choice {
+        font-size: 1rem;
+    }
 }
 
 /* <-- For screen size of 1600px or more --> */

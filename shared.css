@@ -111,14 +111,21 @@ footer{
   text-align: center; 
 }
 
-/* <-- For screen size of 752px or less --> */
-@media (max-width: 47rem) {
+/* <-- For screen size of 640px or less --> */
+@media (max-width: 40rem) {
 
+  #store_logo {
+    left: 1rem;
+    top: .5rem;
+  }
+  
   .main-nav__items {
-    font-size: 1rem;
+    font-size: .7rem;
+    right: 0%;
+    top: 65%; 
   }
 
   .main-nav__item {
-    padding: 0 0.5rem;
+    padding: 0 0.2rem;
   }
 }

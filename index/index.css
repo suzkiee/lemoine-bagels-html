@@ -30,7 +30,7 @@ p {
 
 
 .intro-container1 {
-    background: url("../images/loxbagel.png") left 60% bottom 44%; 
+    background: url("../images/loxbagel.png") left 63% bottom 36% no-repeat; 
     width: 40%;
     margin-left: 7.5rem;
 }
@@ -151,10 +151,10 @@ h1 {
     margin-top: 0;
 }
 
-/* <-- For screen size of 752px or less --> */
+/* <-- For screen size of 350px or less --> */
 
-@media (max-width: 47rem) {
-    
+@media (max-width: 40rem) {
+
     #banner_img {
         height: auto; 
     }
@@ -164,11 +164,15 @@ h1 {
         display: block;
         margin: auto;
         text-align: center;
-        height: 53vh;
+        height: 57vh;
     }
 
+   .intro-container__all {
+       margin: 0rem auto auto auto;
+   }
     .intro-container1 {
-        width: 80%;
+        width: 100%;
+        background-size: 120%;
     }
 
     .intro-container2 {
@@ -178,10 +182,12 @@ h1 {
 
     p {
         padding: 0;
+        font-size: 1rem;
+        width: 100%;
     }
 
     #view-menu-button {
-        margin-top: 3.5rem;    
+        margin: 3.5rem auto;    
     }
 
     .mid-container1 {
@@ -191,6 +197,11 @@ h1 {
     .mid-container2 {
         width: 80%;
         padding: 0;
+    }
+
+    #home-bgl-img {
+        height: auto;
+        width: 80%;
     }
 
     .reviews-cont {
@@ -233,6 +244,7 @@ h1 {
         font-size: 3.25rem;
         padding-left: 1rem;
     }
+    
     .intro-text {
         width: 67%;
     }

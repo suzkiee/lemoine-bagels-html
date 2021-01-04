@@ -112,6 +112,11 @@ p{
         margin: auto;
     }
 
+    #catering-banner {
+        height: auto;
+        width: 100%;
+    }
+
     #button-container {
         margin: 2.87rem auto;
     }
