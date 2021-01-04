@@ -117,6 +117,10 @@ h1 {
     width: 520px;
 }
 
+.review-element.last {
+    margin-left: -20px;
+}
+
 .review-desc {
     width: 295px;
     height: 202px;
