@@ -137,3 +137,15 @@ div > p {
         display: block;
     }
 }
+
+/* <-- For screen size of 1600px or more --> */
+
+@media (min-width: 100rem) {
+    #banner_img {
+        height: auto;
+    }
+
+    .img-container {
+        width: 45%;
+    }
+}
