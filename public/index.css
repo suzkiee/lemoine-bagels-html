@@ -30,7 +30,7 @@ p {
 
 
 .intro-container1 {
-    background: url("../images/loxbagel.png") left 63% bottom 36% no-repeat; 
+    background: url("./images/loxbagel.png") left 63% bottom 36% no-repeat; 
     width: 40%;
     margin-left: 7.5rem;
 }
